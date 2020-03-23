@@ -13,7 +13,6 @@ The mesh data structure is organized as follows:
 ## Vertices
 A set of vertices which contain information of individual 3D points in the mesh. The vertices further have information about neighboring Vertices, Edges, Faces and Cells.
 ### Neighboring Vertices Examples
-![Example 1](https://github.com/naeem014/Meshing/tree/master/Examples/vertex_example1.png)
 ## Edges
 A set of edges where each edge is defined by two vertices in the mesh. The edges also have information about neighboring Vertices, Edges, Faces and Cells.
 ## Faces
