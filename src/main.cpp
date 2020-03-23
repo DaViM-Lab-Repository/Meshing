@@ -16,8 +16,7 @@ int main(int argc, char* argv[]) {
     Mesh& mesh = meshFileReader.getMesh();
 
     MeshFileWriter meshFileWriter(mesh, "output.vtk");
-    int index = atoi(argv[2]);
-    meshFileWriter.writeFile(index);
+    meshFileWriter.writeFile();
 
     return 0;
 }

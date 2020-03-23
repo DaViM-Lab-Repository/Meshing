@@ -7,13 +7,13 @@ class MeshFileWriter {
 public:
     MeshFileWriter(Mesh& mesh_in, std::string fileName);
     ~MeshFileWriter();
-    void writeFile(int index);
+    void writeFile();
 
 private:
     std::string strFileName;
     Mesh mesh;
 
-    void writeVTKFile(int index);
+    void writeVTKFile();
 };
 
 #endif
