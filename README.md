@@ -1,6 +1,6 @@
 # Meshing
 # Introduction
-This repository contains a C++ program to open mesh files (Quad or HExahedral meshes in VTK file format) and build a data structure for the mesh. The code can be build on Linux or Windows OS using CMAKE GUI, VTK and Visual Studio (in case of Windows OS).
+This repository contains a C++ program to open mesh files (Quad or Hexahedral meshes in VTK file format) and build a data structure for the mesh. The code can be build on Linux or Windows OS using CMAKE GUI, VTK and Visual Studio (in case of Windows OS).
 # Building
 The code requires VTK libraries to build a meshing data structure from input VTK files, therefore, VTK (version >= 8.0) is required. The VTK source code can be downloaded from https://vtk.org/download/ and instruction to build VTK on different platforms can be found at https://vtk.org/Wiki/VTK/Configure_and_Build. To build and run the code:
 - Download the repository to local machine.
