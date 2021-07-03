@@ -66,3 +66,4 @@ The blue cell in the following image is the source cell and red faces are neighb
 ### Neighboring Cells Example
 The blue cell in the following image is the source cell and red cells are neighboring cells.
 ![](/Examples/cell_example12.png)
+
